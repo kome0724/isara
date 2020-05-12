@@ -6,7 +6,16 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-weight: 600;
-  color: #333333;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
 }
 
 a {
@@ -45,6 +54,13 @@ header .header1 .header2 {
 header .header1 .header2 img {
   width: 128px;
   height: 45px;
+  position: relative;
+  top: 8px;
+}
+
+header .header1 .header2 p {
+  font-size: 14px;
+  padding-top: 25px;
 }
 
 header .header1 .header3 a {
@@ -67,5 +83,108 @@ header .header1 .header3 a {
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.block1 .block1-main {
+  padding-top: 90px;
+}
+
+.block1 .block1-main img {
+  width: 317px;
+  margin-bottom: 20px;
+}
+
+.block2 {
+  padding: 30px 0;
+  color: white;
+  background-color: #ebb94d;
+}
+
+.block2 .block2-first .red {
+  color: #d0254e;
+  font-size: 18px;
+  padding: 10px 4px;
+  margin-bottom: 50px;
+}
+
+.block2 .block2-first .red span {
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.block2 .block2-contact a {
+  border-radius: 50px;
+  padding: 30px 300px;
+  line-height: 70px;
+  font-size: 28px;
+  background-color: #d86c67;
+  color: #ffffff;
+  font-weight: 600;
+  max-width: 1028px;
+}
+
+.block2 .block2-second {
+  margin-top: 50px;
+}
+
+.block2 .block2-second p {
+  margin-bottom: 40px;
+}
+
+.block2 .block2-social a {
+  background-color: #00acee;
+  color: #ffffff;
+  padding: 1px;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+.block3 {
+  background-image: url(image/introbottom.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.block3 .block3-first {
+  position: relative;
+}
+
+.block3 .block3-first h2 {
+  padding: 30px 0;
+  margin: 40px 0;
+}
+
+.block3 .block3-first h2::before,
+.block3 .block3-first h2::after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.block3 .block3-first h2::before {
+  top: 0;
+  left: 0;
+  border-top: solid 5px #ebb94e;
+  border-left: solid 5px #ebb94e;
+}
+
+.block3 .block3-first h2::after {
+  right: 0;
+  bottom: 0;
+  border-right: solid 5px #ebb94e;
+  border-bottom: solid 5px #ebb94e;
+}
+
+.block3 .block3-second p {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.block3 .block3-second p span {
+  font-weight: 700;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0, #EBB94D));
+  background-image: linear-gradient(transparent 70%, #EBB94D 0);
 }
 /*# sourceMappingURL=style.css.map */
