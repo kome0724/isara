@@ -8,9 +8,10 @@ body {
   font-weight: 600;
   margin: 0;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }
 
-h1 {
+h2 {
   font-size: 28px;
 }
 
@@ -85,11 +86,11 @@ header .header1 .header3 a {
   background-position: center;
 }
 
-.block1 .block1-main {
+.block1 .main {
   padding-top: 90px;
 }
 
-.block1 .block1-main img {
+.block1 .main img {
   width: 317px;
   margin-bottom: 20px;
 }
@@ -100,20 +101,20 @@ header .header1 .header3 a {
   background-color: #ebb94d;
 }
 
-.block2 .block2-first .red {
+.block2 .first .red {
   color: #d0254e;
   font-size: 18px;
   padding: 10px 4px;
   margin-bottom: 50px;
 }
 
-.block2 .block2-first .red span {
+.block2 .first .red span {
   background-color: #f9f2f4;
   border-radius: 4px;
   font-weight: normal;
 }
 
-.block2 .block2-contact a {
+.block2 .contact a {
   border-radius: 50px;
   padding: 30px 300px;
   line-height: 70px;
@@ -124,15 +125,15 @@ header .header1 .header3 a {
   max-width: 1028px;
 }
 
-.block2 .block2-second {
+.block2 .second {
   margin-top: 50px;
 }
 
-.block2 .block2-second p {
+.block2 .second p {
   margin-bottom: 40px;
 }
 
-.block2 .block2-social a {
+.block2 .social a {
   background-color: #00acee;
   color: #ffffff;
   padding: 1px;
@@ -141,50 +142,273 @@ header .header1 .header3 a {
 }
 
 .block3 {
+  padding-bottom: 110px;
   background-image: url(image/introbottom.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.block3 .block3-first {
+.block3 .first {
   position: relative;
 }
 
-.block3 .block3-first h2 {
+.block3 .first h2 {
   padding: 30px 0;
   margin: 40px 0;
 }
 
-.block3 .block3-first h2::before,
-.block3 .block3-first h2::after {
+.block3 .first h2::before,
+.block3 .first h2::after {
   content: "";
   position: absolute;
   height: 50px;
   width: 50px;
 }
 
-.block3 .block3-first h2::before {
+.block3 .first h2::before {
   top: 0;
   left: 0;
   border-top: solid 5px #ebb94e;
   border-left: solid 5px #ebb94e;
 }
 
-.block3 .block3-first h2::after {
+.block3 .first h2::after {
   right: 0;
   bottom: 0;
   border-right: solid 5px #ebb94e;
   border-bottom: solid 5px #ebb94e;
 }
 
-.block3 .block3-second p {
+.block3 .second p {
   font-weight: normal;
   margin-bottom: 30px;
 }
 
-.block3 .block3-second p span {
+.block3 .second p span {
   font-weight: 700;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0, #EBB94D));
-  background-image: linear-gradient(transparent 70%, #EBB94D 0);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0, #ebb94d));
+  background-image: linear-gradient(transparent 70%, #ebb94d 0);
+}
+
+.block4 {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #fef5e0;
+  position: relative;
+}
+
+.block4 .about {
+  width: 80px;
+  height: 80px;
+  background-color: #ebb94e;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.block4 .about p {
+  line-height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+
+.block4 .first {
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.block4 .first h2::before,
+.block4 .first h2::after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.block4 .first h2::before {
+  top: 0;
+  left: 0;
+  border-top: solid 5px #ebb94e;
+  border-left: solid 5px #ebb94e;
+}
+
+.block4 .first h2::after {
+  right: 0;
+  bottom: 0;
+  border-right: solid 5px #ebb94e;
+  border-bottom: solid 5px #ebb94e;
+}
+
+.block4 .second {
+  padding: 30px 230px 50px 230px;
+  margin: 40px;
+  background-color: #fff;
+  border: 4px solid #ebb94d;
+  border-radius: 4px;
+}
+
+.block4 .second .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.block4 .second .boxes .box {
+  margin: 3px;
+}
+
+.block4 .second .boxes .box p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.block5 {
+  background-image: url(image/aboutsecondbg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30px;
+}
+
+.block5 .first {
+  color: #fff;
+  padding-top: 60px;
+}
+
+.block5 .first span {
+  color: #ebb94e;
+}
+
+.block5 .first h2 {
+  margin-bottom: 30px;
+}
+
+.block5 .first p {
+  margin-bottom: 20px;
+}
+
+.block5 .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block5 .boxes .box {
+  background-color: #fff;
+  width: 380px;
+  height: 180px;
+  padding: 30px;
+  margin: 10px;
+}
+
+.block5 .boxes .box .step {
+  background-color: #ebb94e;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.block5 .boxes .box .time {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.block5 .boxes .box .text {
+  font-size: 16px;
+}
+
+.block5-plus {
+  background-color: #016ea9;
+  padding: 45px 0;
+}
+
+.block5-plus p {
+  color: #fff;
+}
+
+.block5-plus p span {
+  color: #ebb94e;
+}
+
+.block6 {
+  padding: 60px 0;
+}
+
+.block6 .first h2 {
+  margin-bottom: 50px;
+}
+
+.block6 .first h2 span {
+  font-size: 16px;
+}
+
+.block6 .first p {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.block6 .images {
+  margin-bottom: 20px;
+}
+
+.block6 .images img {
+  width: 18%;
+  height: auto;
+  margin: 20px;
+}
+
+.block6 .text {
+  font-size: 16px;
+}
+
+.block7 {
+  background-color: #fef5e0;
+  padding-top: 60px;
+}
+
+.block7 .first {
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block7 .first::before,
+.block7 .first::after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.block7 .first::before {
+  top: 0;
+  left: 0;
+  border-top: solid 5px #ebb94e;
+  border-left: solid 5px #ebb94e;
+}
+
+.block7 .first::after {
+  right: 0;
+  bottom: 0;
+  border-right: solid 5px #ebb94e;
+  border-bottom: solid 5px #ebb94e;
 }
 /*# sourceMappingURL=style.css.map */
