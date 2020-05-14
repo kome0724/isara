@@ -8,7 +8,6 @@ body {
   font-weight: 600;
   margin: 0;
   letter-spacing: 2px;
-  overflow-x: hidden;
 }
 
 h2 {
@@ -410,5 +409,72 @@ header .header1 .header3 a {
   bottom: 0;
   border-right: solid 5px #ebb94e;
   border-bottom: solid 5px #ebb94e;
+}
+
+.block7 .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.block7 .boxes .box {
+  margin: 15px;
+  width: 360px;
+}
+
+.block7 .boxes .box img {
+  width: 360px;
+}
+
+.block7 .boxes .box p {
+  text-align: left;
+}
+
+.block7 .boxes .box .title {
+  font-weight: 700;
+  color: #ebb94d;
+  margin-bottom: 10px;
+}
+
+.block7 .boxes .box .text {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.block7 .second {
+  background-color: #fff;
+  border: 4px solid #ebb94d;
+  border-radius: 4px;
+  margin: 40px 0;
+}
+
+.block7 .second h2 {
+  color: #ebb94d;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.block7 .second p {
+  margin-bottom: 20px;
+}
+
+.block7 .second h4 {
+  margin-bottom: 50px;
+}
+
+.block7 .third {
+  padding-bottom: 60px;
+}
+
+.block7 .third p {
+  font-weight: 300;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
