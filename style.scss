@@ -435,3 +435,158 @@ header {
 		}
 	}
 }
+
+.block8 {
+	background-image: url(image/teacherbg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	color: #fff;
+
+	.first {
+		h2 {
+			margin-bottom: 30px;
+		}
+	}
+
+	.members {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.member {
+			margin: 15px;
+			width: 370px;
+
+			img {
+				border-radius: 50%;
+				position: relative;
+				bottom: -35px;
+			}
+
+			.text {
+				border: 3px solid #fff;
+				padding: 40px;
+
+				p {
+					font-weight: 300;
+					font-size: 16px;
+					margin-bottom: 10px;
+				}
+				.left {
+					text-align: left;
+				}
+			}
+		}
+	}
+}
+
+.block9-minus {
+	color: #fff;
+	background-color: #ebb94d;
+	padding: 40px 0;
+
+	.QA {
+		width: 80px;
+		height: 80px;
+		background-color: #fff;
+		border-radius: 50%;
+		margin: 0 auto;
+		h5 {
+			line-height: 80px;
+			color: #ebb94d;
+		}
+	}
+	h2 {
+		padding: 10px 0;
+	}
+
+	.text {
+		position: relative;
+	}
+	.text::before,
+	.text::after {
+		content: "";
+		position: absolute;
+		height: 50px;
+		width: 50px;
+	}
+	.text::before {
+		top: 0;
+		left: 0;
+		border-top: solid 5px #fff;
+		border-left: solid 5px #fff;
+	}
+	.text::after {
+		right: 0;
+		bottom: 0;
+		border-right: solid 5px #fff;
+		border-bottom: solid 5px #fff;
+	}
+}
+
+.block9{
+	.triangle {
+		width: 50px;
+		height: 50px;
+		border-top: solid 50px #ebb94d;
+		border-left: solid 50px transparent;
+		border-bottom: solid 50px transparent;
+		border-right: solid 50px transparent;
+		margin: 0 auto;
+		position: relative;
+		bottom: 20px;
+	}
+
+	.set{
+		position: relative;
+		bottom: 50px;
+
+		.first{
+			h2{
+				margin-bottom: 10px;
+			}
+			h4{
+				margin-bottom: 30px;
+			}
+			h5{
+				font-weight: 300;
+			}
+		}
+
+		.peoples{
+			.people{
+				display: flex;
+				margin: 30px;
+				justify-content: center;
+
+				img{
+					border: 3px solid #ebb94d;
+					width: 240px;
+					height: 240px;
+				}
+				.text{
+					padding: 20px;
+					text-align: left;
+					width: 500px;
+					color: #777777;
+					font-style: italic;
+
+					p{
+						font-weight: 400;
+						font-size: 18px;
+						margin-bottom: 10px;
+					}
+					h5{
+						font-weight: 400;
+						text-decoration: underline;
+						text-decoration-color: #777777;
+					}
+				}
+			}
+		}
+	}
+}
+
+
