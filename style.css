@@ -642,4 +642,182 @@ header .header1 .header3 a {
   -webkit-text-decoration-color: #777777;
           text-decoration-color: #777777;
 }
+
+.block10 {
+  padding: 60px 0;
+  background-image: url(image/classbg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.block10 .first {
+  color: #fff;
+}
+
+.block10 .first h2 {
+  margin-bottom: 10px;
+}
+
+.block10 .first h4 {
+  margin-bottom: 30px;
+}
+
+.block10 .tables {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block10 .tables table {
+  margin: 15px;
+  width: 370px;
+  border: 2px solid #016ea9;
+}
+
+.block10 .tables table th {
+  color: #fff;
+  background-color: #016ea9;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.block10 .tables table td {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
+
+.block10-plus {
+  padding: 40px;
+  color: #fff;
+  background-color: #016ea9;
+}
+
+.block11 .first {
+  padding-bottom: 30px;
+}
+
+.block11 .first h2 {
+  padding: 60px;
+}
+
+.block11 .boxes {
+  padding-bottom: 40px;
+}
+
+.block11 .boxes .flowline {
+  margin-bottom: -7px;
+}
+
+.block11 .boxes .box {
+  padding: 10px 35px;
+  margin: 0;
+  border-radius: 10px;
+  background-color: #fef5e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block11 .boxes .box .left {
+  margin: 30px 0;
+  width: 350px;
+}
+
+.block11 .boxes .box .right {
+  text-align: left;
+  padding: 30px 10px;
+}
+
+.block11 .boxes .box .right h5 {
+  font-weight: 300;
+}
+
+.block12 {
+  color: #fff;
+  padding: 90px 0;
+  background-image: url(image/bangkokbg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.block12 .container {
+  text-align: left;
+}
+
+.block12 .container .first h5 {
+  font-weight: 300;
+}
+
+.block12 .container ul {
+  padding: 20px;
+}
+
+.block12 .container ul h4 {
+  padding: 5px;
+}
+
+.block13 {
+  padding: 20px 0;
+  background-color: #f7c23c;
+}
+
+.block13 .first {
+  color: #000;
+  margin-bottom: 60px;
+}
+
+.block13 .first h2 {
+  margin: 40px;
+}
+
+.block13 .first h4 span {
+  color: #fff;
+}
+
+.block13 .second {
+  background-color: #f7c23c;
+  position: relative;
+  bottom: -25px;
+  width: 56%;
+  margin: 0 auto;
+}
+
+.block13 .circles {
+  border: solid 3px #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block13 .circles .circle {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 50px;
+  position: relative;
+}
+
+.block13 .circles .circle .text {
+  width: 90%;
+  position: absolute;
+  bottom: 70px;
+  left: 15px;
+}
+
+.block13 .circles .circle .text h2 {
+  color: #f7c23c;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */
